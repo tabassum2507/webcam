@@ -4,6 +4,7 @@ import { WebcamCapture} from '../WebCam/webCam'
 import Component from '../PhoneCam/phoneCam'
 
 
+
 const Home = () => {
 
 
