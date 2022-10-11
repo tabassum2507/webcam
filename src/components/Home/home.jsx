@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './home.css'
 import { WebcamCapture} from '../WebCam/webCam'
+import Component from '../PhoneCam/phoneCam'
 
 
 const Home = () => {
@@ -13,7 +14,8 @@ const Home = () => {
                     <h1>Capture !
                     </h1>
                     <form className="form">
-                        <WebcamCapture/> 
+                        {/* <WebcamCapture/>  */}
+                        <Component />
                     </form>
                 </div>
             </div>
