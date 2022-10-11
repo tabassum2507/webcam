@@ -10,7 +10,8 @@ const Home = () => {
         <div className="home-container">
             <div className="container">
                 <div className="text">
-                    <h1>Fill up this form!</h1>
+                    <h1>Capture !
+                    </h1>
                     <form className="form">
                         <WebcamCapture/> 
                     </form>
